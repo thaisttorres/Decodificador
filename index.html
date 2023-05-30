@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <main>
+    <div class="principal">  
+        <textarea class="texto-criptografar" placeholder="Digite seu texto aqui"></textarea>
+        <p>&raquo; Apenas letras minusculas e sem acento</p>
+        <button onclick = "btnEncriptar()">Criptografar</button>
+        <button onclick = "btnDesencriptar()">Descriptografar</button>
+    </div>
+    <div class="resultado">
+        <textarea class="texto-criptografar2" ></textarea>
+        <button class="copiar" onclick = "btnCopiar()">Copiar</button>
+    </div>
+    </main>
+    <footer class="rodape">	&copy; Desenvolvido por Thaisttorres</footer>
+    <script src="script.js"></script>
+</body>
+</html>
